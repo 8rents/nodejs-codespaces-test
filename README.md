@@ -6,11 +6,19 @@
 
 ## This Guide’s Table of Contents
 
+### Node.js
+
 1. Installing node.js on Windows without admin rights
 2. Creating a Simple Node.js app
-3. Setting up vscode for use with node.js
-4. Customizing vscode for node.js
-5. Writing GitHub Actions Workflow
+
+### vsCode
+
+1. Setting up vsCode for use with node.js
+2. Customizing vsCode for node.js
+
+### GitHub
+
+1. Writing GitHub Actions Workflow
 
 ---
 
@@ -220,7 +228,7 @@ name: Node.js CI
 
 ```
 
-### Testing on One or more than One versions of Node.js
+### Testing on 1 or more than 1 versions of Node.js
 
 Change the yaml string in the `node.js.yml` file.
 
@@ -294,9 +302,11 @@ steps:
 - run: npm test
 ```
 
-## Up Next:
+---
 
-[Publishing Node Packages on CI completion](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-nodejs-packages)
+## Publishing Node Packages on CI completion
+
+How to automate publishing packages with CI pipeline
 
 ---
 
@@ -309,6 +319,7 @@ steps:
 5. [Building and testing Node.js Apps on GitHub](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-nodejs)
 6. [Writing GitHub Workflows](https://docs.github.com/en/actions/writing-workflows)
 7. [Understanding GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
+8. [Publishing Node Packages on CI completion](https://docs.github.com/en/actions/use-cases-and-examples/publishing-packages/publishing-nodejs-packages)
 
 ---
 
