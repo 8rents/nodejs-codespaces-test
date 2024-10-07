@@ -128,13 +128,11 @@ git push origin main
 
 It’s even easier with *GitHub Desktop*.
 
-## Setting up vscode for use with node.js
+## Installing vsCode with either scoop or winget
 
 You have a few different options for trying to get vsCode installed on your Windows computer:
 
-### Installing vsCode with either scoop or winget
-
-Installing **with Scoop:**
+### Installing **with Scoop:**
 
 ```powershell
 scoop install vscode
@@ -148,26 +146,36 @@ If you have some issues with the `scoop` installed version try uninstalling and 
 scoop uninstall vscode
 ```
 
-And installing it **With WinGet**:
+### And installing it **With WinGet**:
 
 ```powershell
 winget install Microsoft.VisualStudioCode
 ```
 
-Hopefully that should work better… If not and you’re still running into issues with either of these installs, try simply using [vscode.dev](https://vscode.dev) which will run directly in your browser.
+Hopefully that should work better… 
+
+### If all else fails use vscode.dev
+
+If not working and you’re still running into issues with either of these installs, try simply using [vscode.dev](https://vscode.dev) which will run directly in your browser.
 
 ---
 
-### Customizing vscode for node.js
+## Customizing vscode for node.js
 
 > ***Mostly taken from the guide:** [Node.js tutorial in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)*
 
-**Essential Extensions & Downloads so far:**
+### Essential Extensions & Downloads so far: 
 
 - My Favorite Theme: [One Dark Pro](https://vscode.dev/github/8rents/nodejs-codespaces-test/blob/main) & Custom [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 - AI Assessed Development: [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) & Intellisense: [Path names](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense), [Node Modules](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense), [SCSS](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
 - Code Linter & Formatter: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode),. [ES Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 - Language Support: [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig), [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml), [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell), [Markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one), [GitGraph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+### Settings to Tweak
+
+### Using the integrated terminal
+
+Open the integrated terminal with teh keuyboard command: `ctrl + \`
 
 ---
 
