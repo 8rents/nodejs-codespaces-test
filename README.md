@@ -161,7 +161,7 @@ Hopefully that should work better… If not and you’re still running into issu
 
 > ***Mostly taken from the guide:** [Node.js tutorial in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)*
 
-Essential Extensions & Downloads so far:
+**Essential Extensions & Downloads so far:**
 
 - My Favorite Theme: [One Dark Pro](https://vscode.dev/github/8rents/nodejs-codespaces-test/blob/main) & Custom [File Icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 - AI Assessed Development: [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) & Intellisense: [Path names](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense), [Node Modules](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense), [SCSS](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
