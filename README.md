@@ -1,6 +1,6 @@
-# Test Node App
+# Node.js Codespaces Test
 
-> ***This is a test node app for learning to develop ephemerally using, GitHub Code spaces***
+> ***Test node.js application to learn about using GitHub codespaces and GitHub Actions.***
 
 ---
 
@@ -14,3 +14,4 @@
 
 ---
 
+**🤍2024 [Brenton Holiday](https://github.com/8rents)**
