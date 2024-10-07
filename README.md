@@ -64,21 +64,22 @@ We are going to create a very simple web server in node.js
 
 3. Create a file called `server.js` inside the application folder.
 
-4. Add the following to the file:  `~/dev/nodejs-codespaces-test/server.js`
-
-    ```javascript
-const { createServer } = require('node:http');
-const hostname = '127.0.0.1';
-const port = 3000;
-const server = createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
-});
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
-```
+4. Add the following to the file:  
+   `~/dev/nodejs-codespaces-test/server.js`
+   
+   ```javascript
+   const { createServer } = require('node:http');
+   const hostname = '127.0.0.1';
+   const port = 3000;
+   const server = createServer((req, res) => {
+       res.statusCode = 200;
+       res.setHeader('Content-Type', 'text/plain');
+       res.end('Hello World');
+   });
+   server.listen(port, hostname, () => {
+       console.log(`Server running at http://${hostname}:${port}/`);
+   });
+   ```
 
 #### Running the `server.js` file from the terminal
 
