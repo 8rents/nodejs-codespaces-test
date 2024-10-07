@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-codespaces-test",
+  "version": "0.0.1",
+  "description": "Test node.js application to learn about using GitHub codespaces and GitHub Actions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8rents/nodejs-codespaces-test.git"
+  },
+  "keywords": [
+    "node.js",
+    "github",
+    "codespaces"
+  ],
+  "author": "Brenton Holiday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8rents/nodejs-codespaces-test/issues"
+  },
+  "homepage": "https://github.com/8rents/nodejs-codespaces-test#readme"
+}
